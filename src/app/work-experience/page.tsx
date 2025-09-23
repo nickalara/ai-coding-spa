@@ -27,7 +27,7 @@ export default function WorkExperience() {
   ];
 
   return (
-    <div className="min-h-screen bg-blue-50 py-12 px-4">
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-indigo-200 py-12 px-4">
       <div className="max-w-4xl mx-auto">
         <Header 
           title="Work Experience" 
@@ -73,13 +73,13 @@ export default function WorkExperience() {
           <div className="flex gap-4 justify-center">
             <Link 
               href="/"
-              className="inline-flex items-center px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-400 hover:scale-105 transition-all duration-200"
+                className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg hover:from-blue-400 hover:to-blue-500 hover:scale-105 transition-all duration-200 shadow-lg"
             >
               ← Back to Home
             </Link>
             <Link 
               href="/contact"
-              className="inline-flex items-center px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-400 hover:scale-105 transition-all duration-200"
+                className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg hover:from-blue-400 hover:to-blue-500 hover:scale-105 transition-all duration-200 shadow-lg"
             >
               Contact Me →
             </Link>

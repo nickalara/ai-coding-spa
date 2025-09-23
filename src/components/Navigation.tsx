@@ -83,7 +83,7 @@ export default function Navigation() {
               <Link
                 href="/"
                 onClick={closeMenu}
-                className="block px-4 py-3 text-lg text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
+                className="block px-4 py-3 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-blue-100 hover:to-indigo-200 rounded-lg transition-all duration-300"
               >
                 Home
               </Link>
@@ -92,7 +92,7 @@ export default function Navigation() {
               <Link
                 href="/work-experience"
                 onClick={closeMenu}
-                className="block px-4 py-3 text-lg text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
+                className="block px-4 py-3 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-blue-100 hover:to-indigo-200 rounded-lg transition-all duration-300"
               >
                 Work Experience
               </Link>
@@ -101,7 +101,7 @@ export default function Navigation() {
               <Link
                 href="/contact"
                 onClick={closeMenu}
-                className="block px-4 py-3 text-lg text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
+                className="block px-4 py-3 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-blue-100 hover:to-indigo-200 rounded-lg transition-all duration-300"
               >
                 Contact
               </Link>
@@ -110,7 +110,7 @@ export default function Navigation() {
               <Link
                 href="/about"
                 onClick={closeMenu}
-                className="block px-4 py-3 text-lg text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
+                className="block px-4 py-3 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-blue-100 hover:to-indigo-200 rounded-lg transition-all duration-300"
               >
                 About
               </Link>

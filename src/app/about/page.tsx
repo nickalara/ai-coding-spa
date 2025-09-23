@@ -29,7 +29,7 @@ export default function About() {
   ];
 
   return (
-    <div className="min-h-screen bg-orange-50 py-12 px-4">
+    <div className="min-h-screen bg-gradient-to-b from-orange-50 to-amber-200 py-12 px-4">
       <div className="max-w-4xl mx-auto">
         <Header 
           title="About Me" 
@@ -160,7 +160,7 @@ export default function About() {
         >
           <Link 
             href="/"
-            className="inline-flex items-center px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-400 hover:scale-105 transition-all duration-200"
+            className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg hover:from-blue-400 hover:to-blue-500 hover:scale-105 transition-all duration-200 shadow-lg"
           >
             ← Back to Home
           </Link>

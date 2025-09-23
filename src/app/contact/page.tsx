@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 export default function Contact() {
   return (
-    <div className="min-h-screen bg-purple-50 py-12 px-4">
+    <div className="min-h-screen bg-gradient-to-b from-purple-50 to-violet-200 py-12 px-4">
       <div className="max-w-4xl mx-auto">
         <Header 
           title="Contact Me" 
@@ -82,7 +82,7 @@ export default function Contact() {
               
               <button
                 type="submit"
-                className="w-full bg-blue-500 text-white py-3 px-6 rounded-lg hover:bg-blue-400 hover:scale-105 transition-all duration-200 font-medium"
+                className="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white py-3 px-6 rounded-lg hover:from-blue-400 hover:to-blue-500 hover:scale-105 transition-all duration-200 font-medium shadow-lg"
               >
                 Send Message
               </button>
@@ -174,13 +174,13 @@ export default function Contact() {
           <div className="flex gap-4 justify-center">
             <Link 
               href="/work-experience"
-              className="inline-flex items-center px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-400 hover:scale-105 transition-all duration-200"
+              className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg hover:from-blue-400 hover:to-blue-500 hover:scale-105 transition-all duration-200 shadow-lg"
             >
               ← Work Experience
             </Link>
             <Link 
               href="/about"
-              className="inline-flex items-center px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-400 hover:scale-105 transition-all duration-200"
+              className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg hover:from-blue-400 hover:to-blue-500 hover:scale-105 transition-all duration-200 shadow-lg"
             >
               About Me →
             </Link>
