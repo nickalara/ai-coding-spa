@@ -22,11 +22,14 @@ export default function Navigation() {
           href="https://docs.google.com/document/d/1YOwrbKghd-zTJjFXpL1uR6G7o3qp0fic/export?format=pdf"
           download="Nick-Lara-Resume.pdf"
           className="flex flex-col items-center text-blue-500 hover:text-blue-600 hover:scale-105 transition-all duration-200"
+          style={{
+            animation: 'bulge 2s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+          }}
         >
           <svg className="w-8 h-8 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
           </svg>
-          <span className="text-base font-medium">Download Resume</span>
+          <span className="text-base font-bold">Download Resume</span>
         </a>
       </div>
 
@@ -71,7 +74,7 @@ export default function Navigation() {
 
       {/* Slide-out Menu */}
       <nav
-        className={`fixed top-0 left-0 h-full w-80 bg-white shadow-2xl transform transition-all duration-300 ease-in-out z-40 ${
+        className={`fixed top-0 left-0 h-full w-80 bg-gradient-to-b from-blue-50 to-blue-100 shadow-2xl transform transition-all duration-300 ease-in-out z-40 ${
           isOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >

@@ -1,7 +1,7 @@
 'use client';
 
 import Header from '../../components/Header';
-import BlueCircle from '../../components/BlueCircle';
+import BlueSquare from '../../components/BlueSquare';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
@@ -160,7 +160,7 @@ export default function About() {
         >
           <Link 
             href="/"
-            className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg hover:from-blue-400 hover:to-blue-500 hover:scale-105 transition-all duration-200 shadow-lg"
+            className="inline-flex items-center px-6 py-3 bg-gradient-to-l from-blue-500 to-blue-600 text-white rounded-lg hover:from-blue-400 hover:to-blue-500 hover:scale-105 transition-all duration-200 shadow-lg"
           >
             ← Back to Home
           </Link>

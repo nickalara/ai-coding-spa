@@ -1,18 +1,18 @@
 import Header from '../components/Header';
-import BlueCircle from '../components/BlueCircle';
+import BlueSquare from '../components/BlueSquare';
 import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-100 to-emerald-200 flex flex-col items-center justify-center gap-8">
       <Header 
-        title="Nick's Home Page" 
-        subtitle="Built entirely with ai prompts!"
+        title="Nick's Vibe-Coded Site" 
+        subtitle="Built entirely with ai prompts in Cursor!"
       />
-      <div className="flex gap-4 items-center">
-        <BlueCircle size="small" />
-        <BlueCircle size="medium" />
-        <BlueCircle size="large" />
+      <div className="flex gap-8 items-center">
+        <BlueSquare size="small" />
+        <BlueSquare size="medium" />
+        <BlueSquare size="large" />
       </div>
       
       <div className="mt-8">

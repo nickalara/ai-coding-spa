@@ -79,7 +79,7 @@ export default function WorkExperience() {
             </Link>
             <Link 
               href="/contact"
-                className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg hover:from-blue-400 hover:to-blue-500 hover:scale-105 transition-all duration-200 shadow-lg"
+                className="inline-flex items-center px-6 py-3 bg-gradient-to-l from-blue-500 to-blue-600 text-white rounded-lg hover:from-blue-400 hover:to-blue-500 hover:scale-105 transition-all duration-200 shadow-lg"
             >
               Contact Me →
             </Link>
