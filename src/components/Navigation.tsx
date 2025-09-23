@@ -16,6 +16,20 @@ export default function Navigation() {
         />
       )}
 
+      {/* Resume Download Button */}
+      <div className="fixed top-8 right-8 z-50 flex flex-col items-center">
+        <a
+          href="https://docs.google.com/document/d/1YOwrbKghd-zTJjFXpL1uR6G7o3qp0fic/export?format=pdf"
+          download="Nick-Lara-Resume.pdf"
+          className="flex flex-col items-center text-blue-500 hover:text-blue-600 hover:scale-105 transition-all duration-200"
+        >
+          <svg className="w-8 h-8 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          </svg>
+          <span className="text-base font-medium">Download Resume</span>
+        </a>
+      </div>
+
       {/* Hamburger Button */}
       <button
         onClick={toggleMenu}

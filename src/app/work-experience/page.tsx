@@ -70,12 +70,20 @@ export default function WorkExperience() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.0, duration: 0.5 }}
         >
-          <Link 
-            href="/"
-            className="inline-flex items-center px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
-          >
-            ← Back to Home
-          </Link>
+          <div className="flex gap-4 justify-center">
+            <Link 
+              href="/"
+              className="inline-flex items-center px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-400 hover:scale-105 transition-all duration-200"
+            >
+              ← Back to Home
+            </Link>
+            <Link 
+              href="/contact"
+              className="inline-flex items-center px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-400 hover:scale-105 transition-all duration-200"
+            >
+              Contact Me →
+            </Link>
+          </div>
         </motion.div>
       </div>
     </div>

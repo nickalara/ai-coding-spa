@@ -2,6 +2,7 @@
 
 import Header from '../../components/Header';
 import BlueCircle from '../../components/BlueCircle';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 export default function About() {
@@ -148,28 +149,21 @@ export default function About() {
                 ))}
               </div>
             </motion.div>
-
-            <motion.div 
-              className="bg-white rounded-lg shadow-md p-8 text-center"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.7, duration: 0.5 }}
-            >
-              <h3 className="text-2xl font-bold text-gray-800 mb-6">Fun Fact</h3>
-              <motion.div 
-                className="flex justify-center mb-4"
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}
-                transition={{ delay: 0.9, duration: 0.5, type: "spring" }}
-              >
-                <BlueCircle size="medium" />
-              </motion.div>
-              <p className="text-gray-700">
-                {"I once built a web app in 48 hours during a hackathon and won first place! "}
-                {"It's amazing what you can accomplish with coffee, determination, and a great team."}
-              </p>
-            </motion.div>
           </div>
+        </motion.div>
+
+        <motion.div 
+          className="mt-12 text-center"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.8, duration: 0.5 }}
+        >
+          <Link 
+            href="/"
+            className="inline-flex items-center px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-400 hover:scale-105 transition-all duration-200"
+          >
+            ← Back to Home
+          </Link>
         </motion.div>
       </div>
     </div>
