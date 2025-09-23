@@ -1,4 +1,7 @@
+'use client';
+
 import Header from '../../components/Header';
+import { motion } from 'framer-motion';
 
 export default function Contact() {
   return (
@@ -9,9 +12,19 @@ export default function Contact() {
           subtitle="Let's get in touch and start a conversation"
         />
         
-        <div className="grid md:grid-cols-2 gap-12 mt-12">
+        <motion.div 
+          className="grid md:grid-cols-2 gap-12 mt-12"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.6 }}
+        >
           {/* Contact Form */}
-          <div className="bg-white rounded-lg shadow-md p-8">
+          <motion.div 
+            className="bg-white rounded-lg shadow-md p-8"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3, duration: 0.5 }}
+          >
             <h3 className="text-2xl font-bold text-gray-800 mb-6">Send a Message</h3>
             <form className="space-y-6">
               <div>
@@ -73,11 +86,16 @@ export default function Contact() {
                 Send Message
               </button>
             </form>
-          </div>
+          </motion.div>
 
           {/* Contact Information */}
           <div className="space-y-8">
-            <div className="bg-white rounded-lg shadow-md p-8">
+            <motion.div 
+              className="bg-white rounded-lg shadow-md p-8"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4, duration: 0.5 }}
+            >
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Get in Touch</h3>
               
               <div className="space-y-6">
@@ -118,9 +136,14 @@ export default function Contact() {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
 
-            <div className="bg-white rounded-lg shadow-md p-8">
+            <motion.div 
+              className="bg-white rounded-lg shadow-md p-8"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.5, duration: 0.5 }}
+            >
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Social Links</h3>
               <div className="flex space-x-4">
                 <a href="#" className="bg-gray-100 p-3 rounded-lg hover:bg-gray-200 transition-colors">
@@ -142,9 +165,9 @@ export default function Contact() {
                   </svg>
                 </a>
               </div>
-            </div>
+            </motion.div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
