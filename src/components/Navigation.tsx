@@ -118,6 +118,15 @@ export default function Navigation() {
                 About
               </Link>
             </li>
+            <li>
+              <Link
+                href="/demos"
+                onClick={closeMenu}
+                className="block px-4 py-3 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-blue-100 hover:to-indigo-200 rounded-lg transition-all duration-300"
+              >
+                Demos
+              </Link>
+            </li>
           </ul>
 
           <div className="mt-8 pt-6 border-t border-gray-200">
