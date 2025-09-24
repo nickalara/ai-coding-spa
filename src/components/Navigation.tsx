@@ -17,7 +17,7 @@ export default function Navigation() {
       )}
 
       {/* Resume Download Button */}
-      <div className="fixed top-8 right-8 z-50 flex flex-col items-center">
+      <div className="fixed top-4 right-4 sm:top-8 sm:right-8 z-50 flex flex-col items-center">
         <a
           href="https://docs.google.com/document/d/1YOwrbKghd-zTJjFXpL1uR6G7o3qp0fic/export?format=pdf"
           download="Nick-Lara-Resume.pdf"
