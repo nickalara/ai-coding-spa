@@ -1,7 +1,6 @@
 'use client';
 
 import Header from '../../components/Header';
-import BlueSquare from '../../components/BlueSquare';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 

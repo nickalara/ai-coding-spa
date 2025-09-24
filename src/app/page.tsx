@@ -1,5 +1,5 @@
 import Header from '../components/Header';
-import BlueSquare from '../components/BlueSquare';
+import BlueTriangle from '../components/BlueTriangle';
 import Link from 'next/link';
 
 export default function Home() {
@@ -9,10 +9,10 @@ export default function Home() {
         title="Nick's Vibe-Coded Site" 
         subtitle="Built entirely with ai prompts in Cursor!"
       />
-      <div className="flex gap-8 items-center">
-        <BlueSquare size="small" />
-        <BlueSquare size="medium" />
-        <BlueSquare size="large" />
+      <div className="flex gap-8 items-end">
+        <BlueTriangle size="small" />
+        <BlueTriangle size="medium" />
+        <BlueTriangle size="large" />
       </div>
       
       <div className="mt-8">

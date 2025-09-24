@@ -1,0 +1,22 @@
+# Cursor Rules for AI Coding Assistant
+
+## Linting Requirements
+- Run `read_lints` tool only when committing changes to git or when specifically requested
+- Fix any linting errors before finalizing the commit
+- Check linting for all modified files before git commits
+
+## Code Quality Standards
+- Use TypeScript strict mode
+- Follow Next.js best practices
+- Maintain consistent code formatting
+- Use proper React patterns and hooks
+
+## File Organization
+- Keep components in `/src/components/`
+- Use proper import/export patterns
+- Maintain consistent naming conventions
+
+## Testing
+- Always verify changes work in the browser
+- Check for console errors
+- Ensure responsive design works properly
